@@ -1,4 +1,4 @@
-class NavySeal extends Soldier implements HandtoHand {
+class NavySeal extends Soldier implements HandtoHand, Bomb {
 
     public NavySeal(String name, String rank, int serialNmumber){};
 
@@ -11,5 +11,10 @@ class NavySeal extends Soldier implements HandtoHand {
     @Override
     void speak() {
         System.out.println("I'm going to attack you from the air! and the Sea!");
+    }
+
+    @Override
+    public void Bomb() {
+        
     }
 }
