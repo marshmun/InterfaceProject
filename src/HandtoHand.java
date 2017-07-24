@@ -1,3 +1,3 @@
 public interface HandtoHand {
-    void PunchtotheFace();
+    String PunchtotheFace();
 }

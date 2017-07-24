@@ -1,3 +1,5 @@
 public interface KnifeFight {
-    void YouGotStabbed();
+   void YouGotStabbed();
+
+    default void Wound() {}
 }

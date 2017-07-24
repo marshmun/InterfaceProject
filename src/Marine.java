@@ -1,12 +1,8 @@
-class Marine extends Soldier implements HandtoHand, RiffleFighting, KnifeFight {
+class Marine extends Soldier implements  RiffleFighting, KnifeFight {
 
     public Marine(String name, String rank, int serialNmumber){};
 
-    @Override
-    public void PunchtotheFace() {
-        System.out.println("You just got punched in the face by a marine... Your probably dead.");
 
-    }
 
     @Override
     public void YouGotStabbed() {
@@ -22,5 +18,10 @@ class Marine extends Soldier implements HandtoHand, RiffleFighting, KnifeFight {
     void speak() {
         System.out.println("Why would you ever want to fight with a marine");
 
+    }
+
+    @Override
+     public void Wound(){
+        System.out.println("Your bleeding!");
     }
 }
