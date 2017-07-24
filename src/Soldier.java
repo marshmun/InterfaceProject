@@ -1,21 +1,23 @@
 import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 
-public abstract class Soldier {
-    String name;
-    String rank;
-    int serialNmumber;
+abstract class Soldier {
+    protected String name;
+    protected String rank;
+    protected int serialNmumber;
 
 
-
-    public void sleep(){
+    void sleep() {
         System.out.println("ZZZZZZZ");
     }
-    public void eat(){
+
+    void eat() {
         System.out.println("CHEW CHEW CHEW ");
     }
-    public void walk(){
+
+    void walk() {
         System.out.println("Trudge");
     }
+
     abstract void speak();
 
 }

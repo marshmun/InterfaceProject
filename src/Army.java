@@ -1,4 +1,7 @@
-class Army extends Soldier implements KnifeFight{
+class Army extends Soldier implements KnifeFight {
+
+    public Army(String name, String rank, int serialNmumber){};
+
     @Override
     public void YouGotStabbed() {
         System.out.println("watch out for those pesky Army men, they are handy with a knife!");

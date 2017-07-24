@@ -1,3 +1,3 @@
-public interface  HandtoHand {
+public interface HandtoHand {
     void PunchtotheFace();
 }
